@@ -7,22 +7,28 @@ public class Response
 	private String status;
 	
 	
-	public String getData() {
+	public String getData() 
+	{
 		return data;
 	}
-	public void setData(String data) {
+	public void setData(String data) 
+	{
 		this.data = data;
 	}
-	public int getResponseCode() {
+	public int getResponseCode() 
+	{
 		return responseCode;
 	}
-	public void setResponseCode(int responseCode) {
+	public void setResponseCode(int responseCode) 
+	{
 		this.responseCode = responseCode;
 	}
-	public String getStatus() {
+	public String getStatus() 
+	{
 		return status;
 	}
-	public void setStatus(String status) {
+	public void setStatus(String status) 
+	{
 		this.status = status;
 	}
 	
